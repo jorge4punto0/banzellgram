@@ -1,0 +1,19 @@
+{
+  "name": "banzellgram",
+  "version": "1.0.0",
+  "description": "A site dedicated to the best photos of my Rott",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Banzell",
+    "Rott",
+    "Rottweiler",
+    "Dog",
+    "Pets",
+    "Dogs"
+  ],
+  "author": "@Jorgelisapa - Jorge Salamanca",
+  "license": "ISC"
+}
