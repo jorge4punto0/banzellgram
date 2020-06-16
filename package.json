@@ -15,5 +15,8 @@
     "Dogs"
   ],
   "author": "@Jorgelisapa - Jorge Salamanca",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "svelte": "^3.23.2"
+  }
 }
