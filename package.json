@@ -18,5 +18,12 @@
   "license": "ISC",
   "dependencies": {
     "svelte": "^3.23.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.10.2",
+    "@babel/polyfill": "^7.10.1",
+    "@babel/preset-env": "^7.10.2",
+    "babel-loader": "^8.1.0",
+    "svelte-loader": "^2.13.6"
   }
 }
