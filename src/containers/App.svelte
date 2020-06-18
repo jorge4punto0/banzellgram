@@ -1,4 +1,4 @@
-<div class="">
+<div class="main">
     <h1>Hello Banzellgram</h1>
 </div>
 
