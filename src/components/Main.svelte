@@ -1,5 +1,5 @@
 <div class="Main">
-  <div class="Main-Container">
+  <div class="Main__container">
     <slot />
   </div>
 </div>
