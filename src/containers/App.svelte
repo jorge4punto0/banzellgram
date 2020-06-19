@@ -19,10 +19,13 @@
     :global(:root) {
 /* COLORS */
 	--first-color: #f2eee2;
+	--second-color: #ffffff;
 
 /* FONTS */
   --first-font: 'Lato', sans-serif;
   --second-font: 'Pacifico', cursive;
+
+  /* SPACES */
 }
   :global(body) {
     background-color: var(--first-color);
