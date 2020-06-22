@@ -1,11 +1,17 @@
+<script>
+  export let nickname;
+  export let name;
+
+</script>
+
 <div class="Profile">
   <div class="Profile__content">
-    <figure class="Profile__userImg">
+    <div class="Profile__userImg">
       <img src="https://avatars2.githubusercontent.com/u/34985840?s=460&u=6662d23205daab5d63c766ce60572d162929d93d&v=4" alt="">
-    </figure>
+    </div>
     <div class="Profile__info">
-      <h2>@jorgelisapa</h2>
-      <span>Jorge Salamanca</span>
+      <h2>{nickname}</h2>
+      <span>{name}</span>
     </div>
   </div>
 </div>

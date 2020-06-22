@@ -1,14 +1,20 @@
 <script>
-  import Comments from './Comments';
+  import Comments from './Comments.svelte';
+
+  export let username;
+  export let location;
+  export let photo;
+  export let postComment;
+  export let comment;
+  export let avatar;
 </script>
 
 <div class="Card">
   <div class="Card__container">
     <div class="Card__header">
       <div class="Card__user">
-        <img src="https://banzell.files.wordpress.com/2013/08/banzell-152.jpg" alt="">
-        <h2>BanzellRott</h2>
-        <span>Bogotá, Colombia</span> 
+        <img src={avatar} alt={username}>
+        <h2>{username} <span>{location}</span></h2>
       </div>
       <div class="Card__settings">
         <i class="fas fa-ellipsis-h" />
@@ -16,7 +22,7 @@
     </div>
     <div class="Card__photo">
       <figure>
-        <img src="https://banzell.files.wordpress.com/2013/08/banzell-152.jpg" alt="">
+        <img src={photo} alt={username}>
       </figure>
     </div>
     <div class="Card__icons">
@@ -29,8 +35,8 @@
       </div>
     </div>
     <div class="Card__description">
-      <h3>BanzellRott</h3>
-      <span>El mejor Rott</span> 
+      <h3>{username}</h3>
+      <span>{postComment}</span>
     </div>
     <Comments />
   </div>
@@ -43,7 +49,7 @@
     background-color: white;
     margin: 0 0 2em 0;
   }
-  .Card__Header {
+  .Card__header {
     display: flex;
     justify-content: space-between;
     align-items: center;
