@@ -1,9 +1,17 @@
+<script>
+  export let comments = [];
+</script>
+
 <div class="Comments">
   <div class="Comments__container">
-    <div class="Comments__users">
-      <h3>Crispeta</h3>
-      <span>Hello Banzell</span>
-    </div>
+
+    {#each comments as comment (comment.id)}
+      <div class="Comments__users">
+        <h3>{comment.username}</h3>
+        <span>{comment.text}</span>
+      </div>
+    {/each}
+
     <div class="Comments__add">
       <form>
         <input
