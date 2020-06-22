@@ -1,5 +1,18 @@
 <script>
   export let comments = [];
+
+  function addComment(event) {
+    const msg = event.target.text.value;
+    if(msg.length > 3) {
+      const message = {
+        id: Date.now(),
+        text: msg,
+        username: '@jorgelisapa',
+      }
+      comments = [...comments, message];
+      event.target.text.value = '';
+    }
+  }
 </script>
 
 <div class="Comments">
@@ -13,7 +26,7 @@
     {/each}
 
     <div class="Comments__add">
-      <form>
+      <form on:submit|preventDefault={addComment}>
         <input
         type="text"
         class="Comments__input"
