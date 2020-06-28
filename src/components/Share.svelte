@@ -7,7 +7,7 @@
     <a href="https://www.facebook.com/sharer/sharer.php?&u=https://pugstagram.co"
     target='_blank'
     >
-    <i class='fas fa-facebook-square' />
+    <i class='fab fa-facebook-square' />
     Compartir en Facebook
     </a>
   </div>
