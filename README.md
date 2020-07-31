@@ -40,8 +40,8 @@ npm run start
 
 ## Autores ✒️
 
-- **Andrés Villanueva** - _Trabajo Inicial_ - [villanuevand](https://github.com/villanuevand)
-- **Fulanito Detal** - _Idea Original_ - [gndx - platzi](https://github.com/gndx)
+- **Jorge Salamanca** - _Trabajo Inicial_ - [jorgelisapa](https://github.com/Jorgelisapa)
+- **Oscar Barajas** - _Idea Original_ - [gndx - platzi](https://github.com/gndx)
 
 ## Screenshots
 
@@ -53,4 +53,4 @@ Este proyecto está bajo la Licencia (Tu Licencia) - mira el archivo [LICENSE.md
 
 ---
 
-⌨️ con ❤️ por [Villanuevand](https://github.com/Jorgelisapa) 😊
+⌨️ con ❤️ por [Jorgelisapa](https://github.com/Jorgelisapa) 😊
