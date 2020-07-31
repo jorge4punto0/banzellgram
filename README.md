@@ -27,9 +27,6 @@ Luego para ejecutar
 ```
 npm run start
 ```
-
-_Finaliza con un ejemplo de cómo obtener datos del sistema o como usarlos para una pequeña demo_
-
 ## Desplegado en 📦
 
 - [Banzellgram - Netlify](https://banzellgram.netlify.app/)
